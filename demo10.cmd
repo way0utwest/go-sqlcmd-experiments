@@ -1,0 +1,1 @@
+sqlcmd -S Aristotle -E -d Adventureworks -Q "select top 3 * from production.product"

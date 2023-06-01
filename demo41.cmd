@@ -1,0 +1,4 @@
+d:
+cd \http
+dir
+
