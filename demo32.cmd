@@ -1,3 +1,3 @@
-sqlcmd create mssql --accept-eula --tag "2019-GA-ubuntu-16.04"
+sqlcmd delete
 
-sqlcmd query "select @@version"
+sqlcmd config get-context

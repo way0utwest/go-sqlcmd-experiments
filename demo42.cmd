@@ -1,4 +1,4 @@
-sqlcmd create mssql --accept-eula --using http://172.25.32.1:8080/sandbox.bak
+sqlcmd create mssql --accept-eula --name CustomDevInstance --using http://172.19.112.1:8080/sandbox.bak
 
 sqlcmd query "use sandbox"
 

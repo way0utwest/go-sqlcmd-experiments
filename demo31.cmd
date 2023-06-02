@@ -1,4 +1,4 @@
 sqlcmd create mssql --accept-eula
 
-sqlcmd query "select @@version"
+sqlcmd query "select @@servername, @@version"
 
