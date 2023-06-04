@@ -1,1 +1,1 @@
-sqlcmd -S Aristotle -E -d Adventureworks -q ":setvar SQLCMDCOLORSCHEME emacs"
+sqlcmd -S . -E -d Adventureworks -q ":setvar SQLCMDCOLORSCHEME emacs"

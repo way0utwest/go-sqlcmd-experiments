@@ -1,3 +1,3 @@
 sqlcmd delete
 
-sqlcmd config get-context
+sqlcmd config get-contexts
